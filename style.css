@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-display: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    background-color: #fff;
+    color: #424242;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active,
+a:focus {
+    outline: 0 !important;
+    border: none !important;
+    -moz-outline-style: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+button,
+button:focus,
+button:active,
+button:hover {
+    outline: none;
+}
+
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-wrapper {
+    padding-left: 14%;
+    padding-right: 14%;
+    max-width: 1920px;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    background-color: #fff;
+}
+
+header .header-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header .header-wrapper nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .header-wrapper nav ul li {
+    margin-left: 30px;
+}
+
+header .header-wrapper nav ul li a {
+    color: #000;
+    font-weight: 600;
+}
+
+/* FRONTPAGE */
+
+.frontpage {
+    background: url(../img/frontpage.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.frontpage .frontpage-wrapper {
+    max-width: 75%;
+    margin-left: 0;
+}
+
+.frontpage .frontpage-wrapper h1 {
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+
+.frontpage .frontpage-wrapper p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+    font-size: 30px;
+    line-height: 1 !important;
+    margin-left: 0px !important;
+}
+
+.m0 {
+    margin: 0px !important;
+}
+
+.mt0 {
+    margin-top: 0px !important;
+}
+
+.mb0 {
+    margin-bottom: 0px !important;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mt70 {
+    margin-top: 70px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.mt130 {
+    margin-top: 130px;
+}
+
+.mt-50 {
+    margin-top: -50px;
+}
+
+.mt-60 {
+    margin-top: -60px;
+}
+
+.mt-100 {
+    margin-top: -100px;
+}
+
+.mb0 {
+    margin-bottom: 0px;
+}
+
+.mb5 {
+    margin-bottom: 5px !important;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.mb70 {
+    margin-bottom: 70px;
+}
+
+.mb80 {
+    margin-bottom: 80px;
+}
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.mb150 {
+    margin-bottom: 150px;
+}
+
+.mb200 {
+    margin-bottom: 200px;
+}
+
+.ml0 {
+    margin-left: 0 !important;
+}
+
+.ml10 {
+    margin-left: 10px !important;
+}
+
+.ml20 {
+    margin-left: 20px !important;
+}
+
+.mr0 {
+    margin-right: 0 !important;
+}
+
+.pt0 {
+    padding-top: 0 !important;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.pt75 {
+    padding-top: 75px;
+}
+
+.pt80 {
+    padding-top: 80px;
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.pt130 {
+    padding-top: 130px;
+}
+
+.pt150 {
+    padding-top: 150px;
+}
+
+.pb0 {
+    padding-bottom: 0px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.pb50 {
+    padding-bottom: 50px;
+}
+
+.pb75 {
+    padding-bottom: 75px;
+}
+
+.pb80 {
+    padding-bottom: 80px;
+}
+
+.pb100 {
+    padding-bottom: 100px;
+}
+
+.pb130 {
+    padding-bottom: 130px;
+}
+
+.pb150 {
+    padding-bottom: 150px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pr15 {
+    padding-right: 15px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pl5 {
+    padding-left: 5px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+
+    .container-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .m-mt20 {
+        margin-top: 20px !important;
+    }
+
+    .m-mt30 {
+        margin-top: 30px !important;
+    }
+
+    .m-mt50 {
+        margin-top: 50px !important;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1288px) {}
+
+
+
+/* moje działanie  */
+
+
+.btn-header-wrapper {
+    margin-top: 30px;
+    display: flex;
+
+
+
+}
+
+.btn-header-contact,
+.btn-header-more-info {
+    padding: 4px 20px;
+    margin-left: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: 170px;
+
+}
+
+.btn-header-contact {
+    background-color: #a01374dd;
+    color: white;
+
+}
+
+.btn-header-more-info {
+    color: rgb(108, 108, 216)
+}
+
+.about-section {
+
+    margin-left: 0;
+}
+
+
+
+/* Services */
+
+.wrapper-services {
+    max-width: 89%;
+
+}
+
+.services-tittle-wrapper,
+.gallery-tittle-wrapper,
+.icon-tittle-wrapper {
+    text-align: center;
+    margin-top: 40px
+}
+
+h4 {
+    font-size: 16px
+}
+
+.services-section {
+    border-radius: 14px;
+}
+
+/* Gallery */
+
+
+.btn-gallery {
+    padding: 5px 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    background-color: #9a2488ec;
+    color: white;
+    font-size: 17px
+}
+
+.container.gallery-container {
+    max-width: 980px;
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+.zoom {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+.zoom:hover,
+.zoom:active,
+.zoom:focus {
+    /**adjust scale to desired size, 
+add browser prefixes**/
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    position: relative;
+    z-index: 100;
+}
+
+
+
+/* icon section - postaw na zdrowie */
+
+.icon-tittle-wrapper {
+    color: #6E92C8
+}
+
+.icons {
+    font-size: 39px;
+    color: #6E92C8;
+    margin-bottom: 17px;
+
+}
+
+
+/* zapoznaj się z cennikiem */
+
+.btn-price-know {
+
+    padding: 4px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: 170px;
+    background-color: #9a2488ec;
+    color: white;
+}
+
+.know-price {
+    background-color: #6E92C8;
+    height: 220px;
+    display: flex;
+    align-items: center;
+
+}
+
+/* KONTAKT */
+
+
+.container .contact-form {
+    /* width: 100%; */
+    margin-left: 2%;
+    /* border: solid 1px #000; */
+}
+
+
+
+.container .contact-form input,
+.container .contact-form textarea {
+    width: 350px;
+    padding: 7px;
+    margin: 5px 6px;
+    color: #242424;
+    border: 1px solid #B7B7B7;
+}
+
+.container .contact-form input::placeholder,
+.container .contact-form textarea::placeholder {
+    color: #242424;
+}
+
+.container .contact-form .btn-send {
+    padding: 1px 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    width: 150px;
+    background-color: #a01374dd;
+    color: white;
+    margin-top: 5px;
+}
+
+.contact-input {
+    border-radius: 10px;
+
+}
+
+
+/* Godziny Pracy */
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
